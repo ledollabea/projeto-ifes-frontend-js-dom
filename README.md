@@ -6,12 +6,13 @@ Este é um projeto simples de manipulação de javascript DOM.
 
 1. Abra o arquivo `index.html` em seu navegador.
 2. Através do JS DOM, é selecionado o elemento cujo ID é header-nav;.
-3. Através do JS DOM, são selecionados todos os elementos que contenham a classe bg-color-dark. Posterior a isso, Serão modificados todos os elementos inserindo um novo texto. A descrição do texto será "Manipulado #".
+3. Através do JS DOM, são selecionados todos os elementos que contenham a classe bg-color-dark. 
+  1. Posterior a isso, (usando setTimeout de 5 segundos) serão modificados todos os elementos inserindo um novo texto. A descrição do texto será "Manipulado #, onde # corresponde ao índice do elemento dentro do NodeList.
 
 
 ## Explicação do requisito de projeto 4
 
-4. Caso rodado o código:
+5. Caso rodado o código:
 <script>
   let navs = document.querySelectorAll('nav');
     for(let k=0;k<navs.length;k++) {
