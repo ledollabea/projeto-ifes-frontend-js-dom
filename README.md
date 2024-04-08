@@ -13,12 +13,18 @@ Este é um projeto simples de manipulação de javascript DOM.
 ## Explicação do requisito de projeto 4
 
 5. Caso rodado o código:
+
+```javascript
 <script>
-  let navs = document.querySelectorAll('nav');
-    for(let k=0;k<navs.length;k++) {
-      navs[k].innerHTML = "Novo texto";
-    }
+    let navs = document.querySelectorAll('nav');
+        for(let k=0;k<navs.length;k++) {
+            navs[k].innerHTML = "Novo texto";
+        }
 </script>
+```
+
+
+
 Resposta: Ambas as tags nav teriam seu conteúdo substituído por "Novo Texto".
 
 
